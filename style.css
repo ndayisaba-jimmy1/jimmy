@@ -7,6 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .header{
@@ -14,9 +15,11 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 99%;
-    margin: 8px;
+    width: 100%;
+    /* margin: 8px; */
+    height: 100%;
 }
+
 .img{
     font-size: 5px;
     display: flex;
@@ -44,6 +47,42 @@ nav{
     align-items: center;
     border: 0.5px solid #A4A4A4;
 }
+.container{
+    height: 35vw;
+    width:40vw;
+    background-color: #DC965A;;
+    padding: 4rem;
+    position: relative;
+}
+.navigation{
+    height: 65vh;
+    width: 30vw;
+    background-color:grey;
+    border:10px aliceblue solid;
+    position: absolute;
+    right: -4rem;
+}
+
+.content-text{
+    width: 60vw;
+    padding: 10rem;
+}
+
+ p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.content-deliver{
+    font-size: 1rem;
+    width: 100vw;
+    font-weight: lighter;
+    display: flex;
+}
+
+/* h1{
+    text-align: end;
+}  */
 
 .brand{
     padding: 0px 5rem;
@@ -62,19 +101,17 @@ nav{
     border-color: #DC965A; 
     padding: 0.5rem 1rem;
 }
-
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+}
 .S-scro{
     margin-top: 4rem;
     font-size: 1rem;
     font-weight: lighter;
-    margin-left: -1rem;
-    color: white;
 }
-/* .container{
-    background-color: #DC965A;
-    height: 100%;
-    width: 30%;
-} */
+
 .border{
    margin-left: 36rem;
    font-size: 6rem;
@@ -102,13 +139,27 @@ h3{
     font-weight: bolder;
 }
 
+.distinct-text{
+    color: #DC965A;
+}
+
+.disabled-text{
+    color: #A4A4A4;
+}
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.padding-x{
+    padding: 0 2rem 0 0;
+}
+
 .header-text{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 20rem;
     padding: 2rem 4rem;
-
 }
 
 .b-right {
